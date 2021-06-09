@@ -1,0 +1,47 @@
+body {
+  max-width: 100%;
+  margin: auto;
+}
+
+#logo {
+  padding-top: 200px;
+  text-align: center;
+}
+
+#searchbar {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.header-left, .footer-left {
+  float: left;
+}
+
+.header-right, .footer-right {
+  float: right;
+}
+
